@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-    /* Mostrando números pares:
+    //Mostrando números pares:
 
     System.out.println("Digite um número: ");
     int numero = entrada.nextInt();
@@ -13,9 +13,9 @@ public class Main {
             continue;
         }
         System.out.println(i);
-    }*/
+    }
 
-    /* Calculando dias, meses e anos de idade:
+    // Calculando dias, meses e anos de idade:
 
         System.out.println("Quantos dias de vida você já tem? ");
     int dias = entrada.nextInt();
@@ -26,9 +26,8 @@ public class Main {
     System.out.println("Sua idade em meses é: " + mes);
     System.out.println("Sua idade em dias é: " + dias);
 
-     */
-
-    /* Conversão de Notas:
+    //Conversão de Notas:
+        
     System.out.println("Digite a nota para conversão: ");
     double nota = entrada.nextInt();
     if (nota>=0 && nota <20){
@@ -48,6 +47,6 @@ public class Main {
         System.out.println("Excelente!! Você tirou nota máxima!!!");
     }
     entrada.close();
-    */
+    
     }
 }
